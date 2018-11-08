@@ -1,0 +1,92 @@
+body{
+    background-color:powderblue;
+}
+
+header {
+    display: flex !important;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+ 
+h1.display{     
+    font-family: Acme; 
+    color:white;
+    font-size:60px;
+    text-decoration: underline;
+ }
+
+ a.btn{
+    font-family: Acme;
+    font-size:24px;}
+
+.container{
+    height:100vh;
+    position: relative;
+}
+
+img.clouds{
+    position:absolute;
+    width:100%;
+}
+
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+  }
+
+.correct-dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: green;
+}
+
+.incorrect-dot{    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+}
+
+.jumbotron{
+    height:50vh;
+    border-style:solid; 
+   border-color:powderblue;
+    margin:10px;
+    position: relative;
+ 
+} 
+
+p.lead{
+  
+    font-family: Acme;
+    font-size:20px;
+    color:blue;
+}
+
+
+
+ #playingField{
+     
+    height:60vh; 
+    margin-top:20px;
+    margin-left:20px;
+  
+   
+    position: relative;}
+
+footer{ 
+    
+    position: relative;
+    text-align:center;
+}

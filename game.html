@@ -20,18 +20,25 @@
     <div class="container">
         
 <div class="content">
-            <span id="level">Level:<span id="levelNum">1</span></span>
+            <span id="level">Level:<span id="levelNum"></span></span>
     <header>
           <div id="buttonBorder" > <a href ="index.html"><i class="material-icons">home</i></a></div>
        
-       <button id="play" onclick="play(this)" class="btn btn-primary">Start</button> 
+       <button id="playButton" onclick="play(this)" class="btn btn-primary">Start</button> 
 
         <div id="timer"></div>
 
     <span id = "gameBar" class="progress">
 
-        <span id="gameBar" class="progress"> <span id="gameBarProgress"   class="progress-bar bg-success"   role="progressbar"   style="width: 100%"   aria-valuenow="100"  aria-valuemin="0"  aria-valuemax="100"></span></span>
-     
+        <span id="gameBar" class="progress"> 
+            <span id="gameBarProgress"   
+            class="progress-bar" 
+             role="progressbar"  
+             style="width: 100%"  
+              aria-valuenow="100" 
+               aria-valuemin="0" 
+                aria-valuemax="100">
+            </span></span>
     </span>
 
     </header>

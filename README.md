@@ -18,6 +18,8 @@ The main purpose is to excersise and improve Bootstrap, CSS, HTML, Javascript sk
 
 #Launch -Locate the index.html file -Launch the file in a browser 
 
-7/02/2020: 
+7/02/: 
+
 -Made modifactions to styling 
--Makde changes to Javascript 
+
+-Made changes to Javascript 
